@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #003366;
+    margin-bottom: 8px;
+}
+.navbar a {
+    flex: 1 1 auto;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.navbar a:hover {
+    background-color: #6699CC;
+    color: black;
+}
+
+.active {
+    background-color: #003366;
+}

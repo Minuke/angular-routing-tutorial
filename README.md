@@ -1,6 +1,6 @@
 # AngularRoutingTutorial
 
-Tutorial project to understand the concepts of `Routing`, `Lazy Loading` and `withComponentInputBinding`.
+Tutorial project to understand the concepts of `Routing`, `Lazy Loading`, `withComponentInputBinding` and `Animated Route Transitions`.
 
 ## Dependencies
 
@@ -19,7 +19,8 @@ In these pages I talk about the project implementation and the theory behind the
 - **Routing:** https://hackmd.io/@Minuke/B14AxHX6T
 - **Lazy Loading:** https://hackmd.io/@Minuke/ByqZrsNpp
 - **withComponentInputBinding:** https://hackmd.io/@Minuke/Hyj1WH7TT
+- **Animated Route Transitions:** https://hackmd.io/@Minuke/rJnb3EyAp
 
 ## About the project
 
-In this project we have created 2 route files, the main one (`app.routes.ts`) and a child file (`home.routes.ts`) that we have initialized with lazy loading. Through this set of routes we can see how routing works in Angular, the different types of `paths` that exist and how we can collect parameters from the routes with `withComponentInputBinding`.
+In this project we have created 2 route files, the main one (`app.routes.ts`) and a child file (`home.routes.ts`) that we have initialized with lazy loading. Through this set of routes we can see how routing works in Angular, the different types of `paths` that exist and how we can collect parameters from the routes with `withComponentInputBinding`. It has also been added a simple exit and entry transition for the routes.
